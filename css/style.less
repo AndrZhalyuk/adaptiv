@@ -15,7 +15,7 @@ img{
 	margin: 0 auto;
 	.d-flex;
 	align-items: baseline;
-	justify-content: center;
+	justify-content: space-between;
 	font-family: @Font-regular;
 }
 .menu{
@@ -29,6 +29,7 @@ img{
 		letter-spacing: 0.3px;
 	}
 }
+
 .menu__link{
 	text-decoration: none;
 	color: #aaaaaa;
@@ -43,8 +44,25 @@ img{
 	}
 }
 
-
-
+////////hamburger///////////
+.humburger{
+	width: 40px;
+	cursor: pointer;
+	transition: all 0.6s ease-out;
+	span{
+		height: 4px;
+		background: black;
+		margin-bottom: 5px;
+		display: block;
+	}
+}
+.menu-hide{
+	display: none;
+}
+.menu-open{
+	.d-flex;
+	
+}
 
 //////header///////
 .header-wrapper{

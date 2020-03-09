@@ -139,8 +139,26 @@
 	.content__title{
 		font-size: 50px;
 	} 
-
 }
+
+@media only screen and (max-width : 620px) {	
+
+	.menu{
+		position: relative;
+		top: 35px;
+		flex-direction: column;
+		background-color: #023052bf;		
+		padding: 10px;	
+		font-size: 12px;	
+
+	}
+	.menu__link{
+		margin-left: 0px;
+		margin-bottom: 5px;	
+	}
+}
+
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 576px) {	
 	.header-wrapper{
@@ -220,8 +238,10 @@
 	.menu{
 		display: block;
 	}
+	.humburger{
+		display: none;
+	}
 	.nav-wrapper{
-		justify-content: space-between;
 		padding-top: 50px;
 	}
 
